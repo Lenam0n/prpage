@@ -1,0 +1,98 @@
+:root {
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --hover-color: #007bff;
+  --footer-bg-color-light: #f9f9f9; /* Lightmode background for footer */
+  --footer-text-color-light: #333; /* Lightmode text for footer */
+}
+
+.dark-mode {
+  --background-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --footer-bg-color-dark: #1a1a1a; /* Darkmode background for footer */
+  --footer-text-color-dark: #e0e0e0; /* Darkmode text for footer */
+}
+
+.footer {
+  background-color: var(--footer-bg-color-light); /* Light mode background */
+  color: var(--footer-text-color-light); /* Light mode text */
+  padding: 40px 20px;
+}
+
+.dark-mode .footer {
+  background-color: var(--footer-bg-color-dark); /* Dark mode background */
+  color: var(--footer-text-color-dark); /* Dark mode text */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links,
+.footer-social,
+.footer-contact {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.footer-links h4,
+.footer-social h4,
+.footer-contact h4 {
+  margin-bottom: 10px;
+  color: inherit; /* Use inherited color */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+
+/* Social Icons Styling */
+.footer-social .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social .social-icons a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+  color: var(--hover-color);
+  transform: scale(1.1);
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  color: inherit; /* Use inherited color */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid var(--footer-text-color-light);
+  padding-top: 20px;
+  color: inherit;
+}
+
+.dark-mode .footer-bottom {
+  border-top: 1px solid var(--footer-text-color-dark);
+}

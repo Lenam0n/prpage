@@ -1,0 +1,129 @@
+/* Standard (Light Mode) Styles */
+.contact-section {
+  padding: 100px 20px;
+  background-color: var(--contact-bg-color);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: var(--contact-title-color);
+  margin-bottom: 40px;
+}
+
+.contact-reachout {
+  color: var(--contact-text-color);
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: var(--contact-input-bg-color);
+  border: 1px solid var(--contact-input-border-color);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--contact-input-text-color);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  outline: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-color: var(--highlight-color);
+}
+
+.contact-textarea {
+  height: 150px;
+}
+
+/* Button Styling for Light Mode - Highlighted Even Without Hover */
+.contact-button {
+  background-color: var(--contact-button-bg-color);
+  color: var(--contact-button-text-color);
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stärkere Schatten für ständige Hervorhebung */
+  transform: translateY(-2px); /* Leicht erhöhte Position */
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: var(--contact-button-hover-bg-color);
+  transform: translateY(-4px); /* Weiteres Anheben bei Hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Verstärkter Schatten bei Hover */
+}
+
+/* Social Media Container */
+.social-medias {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  --contact-bg-color: #1a1a1a;
+  --contact-title-color: #e0e0e0;
+  --contact-input-bg-color: #333;
+  --contact-input-border-color: #555;
+  --contact-input-text-color: #e0e0e0;
+  --contact-button-bg-color: #444;
+  --contact-button-text-color: #fff;
+  --contact-button-hover-bg-color: #666;
+  --highlight-color: #ff4655;
+}
+
+.dark-mode .contact-section {
+  background-color: var(--contact-bg-color);
+}
+
+.dark-mode .contact-title,
+.dark-mode .contact-reachout {
+  color: var(--contact-title-color);
+}
+
+.dark-mode .contact-input,
+.dark-mode .contact-textarea {
+  background-color: var(--contact-input-bg-color);
+  border: 1px solid var(--contact-input-border-color);
+  color: var(--contact-input-text-color);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .contact-input:focus,
+.dark-mode .contact-textarea:focus {
+  border-color: var(--highlight-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark Mode - Button Highlight */
+.dark-mode .contact-button {
+  background-color: var(--contact-button-bg-color);
+  color: var(--contact-button-text-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Intensiver Schatten */
+  transform: translateY(-2px);
+}
+
+.dark-mode .contact-button:hover {
+  background-color: var(--contact-button-hover-bg-color);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Verstärkter Schatten bei Hover */
+}

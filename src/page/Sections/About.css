@@ -1,0 +1,35 @@
+.about-section {
+  padding: 100px 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  scroll-margin-top: 70px;
+}
+
+.about-title {
+  font-size: 36px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--hover-color);
+}

@@ -1,0 +1,83 @@
+:root {
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --hover-color: #007bff;
+}
+
+.dark-mode {
+  --background-color: #1a1a1a;
+  --text-color: #e0e0e0;
+}
+
+.skills-section {
+  padding: 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.skills-carousel {
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skills-track {
+  display: flex;
+  gap: 30px;
+  animation: scroll 20s linear infinite;
+  height: 50px;
+}
+
+.skill-item {
+  flex: 0 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.skill-item svg {
+  color: var(--text-color);
+  height: 40px;
+  width: 40px;
+}
+
+.skill-item:hover svg {
+  transform: scale(1.2);
+  color: var(--hover-color); /* Uses custom hover color if set */
+}
+
+/* Smooth scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pause animation on hover */
+.skills-carousel:hover .skills-track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 20px;
+  }
+
+  .skills-track {
+    gap: 15px;
+  }
+
+  .skill-item {
+    min-width: 100px;
+  }
+}

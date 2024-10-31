@@ -1,0 +1,52 @@
+/* Light Mode Standardfarben */
+:root {
+  --background-color: #f5f5f5;
+  --title-color: #333;
+  --text-color: #666;
+  --button-bg-color: #333;
+  --button-text-color: white;
+  --button-hover-bg-color: #555;
+}
+
+/* Dark Mode Farben */
+.dark-mode {
+  --background-color: #1a1a1a;
+  --title-color: #e0e0e0;
+  --text-color: #999;
+  --button-bg-color: #444;
+  --button-text-color: white;
+  --button-hover-bg-color: #666;
+}
+
+/* Main Section */
+.Main-section {
+  background-color: var(--background-color);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.Main-title {
+  font-size: 48px;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.Main-text {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--button-hover-bg-color);
+}

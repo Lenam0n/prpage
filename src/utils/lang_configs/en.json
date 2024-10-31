@@ -1,0 +1,221 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "AboutMe": "About Me",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "Timeline": "Timeline",
+    "Esport": {
+      "Title": "Esport",
+      "Valorant": "Valorant",
+      "CounterStrike": "Counter Strike"
+    }
+  },
+  "About": {
+    "Title": "About Me",
+    "Description": "As a dedicated eSports athlete at Dortmund eSports e.V. and aspiring fullstack developer, I combine technical skills in JavaScript and other languages with my passion for team-based strategy games. My educational background includes an ongoing specialization in Node.js and React / React Native at the Zero To Mastery Academy, which has built my skills in modern software development from the ground up. In collaboration with my team, we have achieved several successes in the national and international e-Sport scene. I constantly developed my skills there, which improved my role as team captain with aspects such as team building and performance management. With my apprenticeship at Berufsbildungswerk Mosbach-Heidelberg and my drive for continuous improvement, I am aiming for a career as a Full Stack Developer, which combines my expertise and interest in innovative technologies and gives me a sense of progress.",
+    "Experience": ""
+  },
+  "Hero": {
+    "Title": "Welcome to My World",
+    "Subtitle": "I combine creativity with technology to build beautiful and functional web experiences.",
+    "ButtonText": "Get in Touch"
+  },
+  "Projects": [
+    {
+      "id": 1,
+      "Title": "Project 1",
+      "Description": "LumiQuest is an exciting learning app that makes mastering new topics or course content both effective and enjoyable. With interactive content, personalized progress tracking, and an intuitive design, LumiQuest supports users in building knowledge in an adventurous way.",
+      "Subtitle": "Used Technologies"
+    }
+  ],
+
+  "Impressum": {
+    "Title": "Legal Notice",
+    "Description": "Here you will find all relevant legal information regarding this website.",
+    "Contact": {
+      "Title": "Contact",
+      "Details": "Name: Anna-Lena Wiederstein\nEmail: Lena.Wiederstein1234@gmail.com\nAddress: -----------"
+    },
+    "Legal": {
+      "Title": "Legal Information",
+      "Details": "Content on this website is protected by copyright and other intellectual property laws."
+    },
+    "Responsibility": {
+      "Title": "Person Responsible according to § 55 Abs. 2 RStV",
+      "Details": "Anna-Lena Wiederstein, -------"
+    }
+  },
+  "Privacy": {
+    "Title": "Privacy Policy",
+    "Description": "This privacy policy explains the nature, scope, and purpose of the processing of personal data on this website.",
+    "DataCollection": {
+      "Title": "Data Collection",
+      "Details": "We collect personal data when you voluntarily provide it, for example, by filling out a contact form."
+    },
+    "Cookies": {
+      "Title": "Cookies",
+      "Details": "This website uses cookies to improve your experience and gather statistical data."
+    },
+    "ThirdParty": {
+      "Title": "Third Party Data Sharing",
+      "Details": "We do not share your data with third parties without your consent, unless required by law."
+    },
+    "UserRights": {
+      "Title": "User Rights",
+      "Details": "You have the right to request information about your stored data, its origin, recipients, and the purpose of storage at any time."
+    },
+    "Contact": {
+      "Title": "Contact",
+      "Details": "If you have any questions regarding privacy, you can contact me at the following email address: privacy@example.com"
+    }
+  },
+  "Footer": {
+    "Links": "Quick Links",
+    "Impressum": "Impressum",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsOfService": "Terms of Service",
+    "Contact": "Contact",
+    "Followme": "Follow me",
+    "Contactme": "Contact me",
+    "AllRightsReserved": "All rights reserved"
+  },
+  "Terms": {
+    "Title": "Terms of Service",
+    "Description": "These terms of service govern the use of this website. By accessing this website, you agree to the following terms.",
+    "Agreement": {
+      "Title": "Agreement to Terms",
+      "Details": "By using this website, you agree to comply with the terms outlined in this agreement."
+    },
+    "UserResponsibilities": {
+      "Title": "User Responsibilities",
+      "Details": "As a user, you agree to use this website only for lawful purposes and not engage in any activity that could harm the operation of this website."
+    },
+    "Limitation": {
+      "Title": "Limitation of Liability",
+      "Details": "We are not liable for any damages that may result from the use of this website."
+    },
+    "Changes": {
+      "Title": "Changes to the Terms",
+      "Details": "We reserve the right to modify these terms at any time. The revised terms will take effect immediately upon being posted on this website."
+    },
+    "Contact": {
+      "Title": "Contact",
+      "Details": "If you have any questions about these terms of service, you can contact me at the following email address: Lena.Wiederstein1234@gmail.com"
+    }
+  },
+  "Contact": {
+    "Title": "Contact Me",
+    "NamePlaceholder": "Your Name",
+    "EmailPlaceholder": "Your Email",
+    "MessagePlaceholder": "Your Message",
+    "SendButton": "Send Message",
+    "Followme": "Follow Me",
+    "ReachOut": "You can also reach out to me via these social platforms.",
+
+    "SuccessTitle": "Success!",
+    "SuccessMessage": "Your message has been sent successfully.",
+    "ErrorTitle": "Error!",
+    "ErrorMessage": "There was an issue sending your message. Please try again later.",
+    "OkButton": "OK"
+  },
+  "EsportTimeline": {
+    "Title": "Esport History"
+  },
+
+  "teamDetails": {
+    "angryTitans": {
+      "details": "My first Valorant team I played for. We went to LAN finals several times together and achieved a lot in the German women's division.",
+      "game": "valorant"
+    },
+    "enders": {
+      "details": "A short-term mix team that played with Project Queens over 3 splits.",
+      "game": "valorant"
+    },
+    "namelessvlr": {
+      "details": "Rebuild of Enders. The team played several Queens sessions together and was taken in by GHR.",
+      "game": "valorant"
+    },
+    "ghr": {
+      "details": "After joining GHR, we gained a lot of experience and achieved some minor event successes.",
+      "game": "valorant"
+    },
+    "does": {
+      "details": "My first Valorant mix team. We made a good name for ourselves in Project V and through the VCL Relegation tournament, which we qualified for.",
+      "game": "valorant"
+    },
+    "whalewompers": {
+      "details": "Mix team for Project V.",
+      "game": "valorant"
+    },
+    "entropy": {
+      "details": "Academy team of Entropy Esports. The team showed up several times in the 99Damage League and, after securing a Div3 slot, performed solidly. There was also a played session in ESEA Intermediate.",
+      "game": "cs"
+    },
+    "vic&evil": {
+      "details": "99Damage Div 3 team with 2 solid sessions there and one session in ESEA Intermediate.",
+      "game": "cs"
+    },
+    "scapesesport": {
+      "details": "Portuguese female team with whom I played one session in ESEA Open and a few smaller tournaments.",
+      "game": "cs"
+    },
+    "fivegamingRed": {
+      "details": "An international female team that successfully participated in a few smaller events and also competed in the mix male scene in the 99Damage League.",
+      "game": "cs"
+    },
+    "fivegamingPink": {
+      "details": "A mix team formed after the disband of the Red team, where I played with four guys in the 99Damage League and ESEA League.",
+      "game": "cs"
+    }
+  },
+
+  "history": {
+    "title": "My Journey Over the Years",
+    "subtitle": "Discover the key moments and milestones that have shaped my career path.",
+    "download_cv": "Download CV as PDF",
+    "events": [
+      {
+        "id": 1,
+        "date": "",
+        "title": "School",
+        "details": "In my two years of high school (11th and 12th grades) with a focus on computer science, I learned the basics of VB and Java."
+      },
+      {
+        "id": 2,
+        "date": "",
+        "title": "Apprentice Preparation",
+        "details": "In the Apprentice Preparation Program, I learned the basics of frontend development and the fundamentals of OOP with Python."
+      },
+      {
+        "id": 3,
+        "date": "",
+        "title": "Zero to Mastery - Web Development Course",
+        "details": "In the Web Development course, I learned how frontend technologies work and interact with each other."
+      },
+      {
+        "id": 4,
+        "date": "",
+        "title": "Zero to Mastery - Python Course",
+        "details": "In the Python course, I learned the fundamentals of Python programming and how it can be used in web development."
+      },
+      {
+        "id": 5,
+        "date": "",
+        "title": "Zero to Mastery - React Course",
+        "details": "In the React course, I learned how to use React at a production level and gained knowledge about the basics of TypeScript with TSX."
+      },
+      {
+        "id": 6,
+        "date": "",
+        "title": "Zero to Mastery - Node.js Course",
+        "details": "In the Node.js course, I learned how to build backend code and connect it to a frontend, which enabled me to create a platform for my friends and me to play several games on."
+      }
+    ]
+  },
+  "main": {
+    "title": "Welcome to my Portfolio",
+    "tagline": "Upcoming Fullstack Developer from Germany , Cologne",
+    "getInTouch": "Get in Touch"
+  }
+}

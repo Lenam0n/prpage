@@ -1,0 +1,97 @@
+/* EventDetails.css */
+.event-details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.event-details-card {
+  background-color: #1c1f24;
+  color: #fafafa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease;
+}
+
+.close-details {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #fafafa;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-details:hover {
+  color: #ff4655;
+}
+
+/* Languages Section */
+.languages-section {
+  margin-top: 20px;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.language-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 50px;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.language-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.language-icon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.language-icon {
+  width: 30px;
+  height: 30px;
+  transition: color 0.3s ease;
+}
+
+/* Hover-Effekt mit der benutzerdefinierten CSS-Eigenschaft --hover-color */
+.language-item:hover .language-icon {
+  color: var(--hover-color, #fafafa);
+}

@@ -1,0 +1,126 @@
+{
+  "Valorant": {
+    "Teams": [
+      {
+        "id": "angryTitans",
+        "year": "2022",
+        "team": "Angry Titans Oni",
+        "role": "Spieler",
+        "agents": ["Jett"],
+        "dateRange": {
+          "start": "Juni 2022",
+          "end": "Dezember 2022"
+        }
+      },
+      {
+        "id": "enders",
+        "year": "2023",
+        "team": "Enders",
+        "role": "Spieler",
+        "agents": ["Jett", "Chamber", "Neon"],
+        "dateRange": {
+          "start": "January 2023",
+          "end": "März 2023"
+        }
+      },
+      {
+        "id": "namelessvlr",
+        "year": "2023",
+        "team": "Nameless_vlr -> GHR",
+        "role": "Spieler",
+        "agents": ["Jett", "Chamber", "Reyna"],
+        "dateRange": {
+          "start": "März 2023",
+          "end": "Mai 2023"
+        }
+      },
+      {
+        "id": "ghr",
+        "year": "2023",
+        "team": "GHR Lycoris",
+        "role": "Spieler",
+        "agents": ["Jett", "Chamber", "Reyna", "Raze"],
+        "dateRange": {
+          "start": "Mai 2023",
+          "end": "Oktober 2023"
+        }
+      },
+      {
+        "id": "does",
+        "year": "2023",
+        "team": "Dortmund Esport",
+        "role": "Spieler",
+        "agents": ["Jett", "Chamber", "Yoru", "Reyna", "Gekko", "Omen"],
+        "dateRange": {
+          "start": "November 2023",
+          "end": "Juli 2024"
+        }
+      },
+      {
+        "id": "whalewompers",
+        "year": "2024",
+        "team": "Whalewompers (vrc Mix)",
+        "role": "Spieler",
+        "agents": ["Jett", "Chamber", "Yoru", "Reyna"],
+        "dateRange": {
+          "start": "August 2024",
+          "end": "current"
+        }
+      }
+    ]
+  },
+  "CounterStrike": {
+    "Teams": [
+      {
+        "id": "fivegamingRed",
+        "year": "2018",
+        "team": "Five Gaming Red",
+        "role": "Spieler / Entry, 2nd Entry , IGL",
+        "dateRange": {
+          "start": "Juni 2018",
+          "end": "December 2018"
+        }
+      },
+      {
+        "id": "fivegamingPink",
+        "year": "2019",
+        "team": "Five Gaming Pink",
+        "role": "Spieler / Entry, 2nd Entry",
+        "dateRange": {
+          "start": "Februar 2019",
+          "end": "2019"
+        }
+      },
+      {
+        "id": "scapesesport",
+        "year": "2019",
+        "team": "Scapes Esport",
+        "role": "Spieler / Entry",
+        "dateRange": {
+          "start": "2019",
+          "end": "2019"
+        }
+      },
+      {
+        "id": "vic&evil",
+        "year": "2019",
+        "team": "Vicious and Evil",
+        "role": "Spieler / Entry, 2nd Entry",
+        "dateRange": {
+          "start": "2020",
+          "end": "2020"
+        }
+      },
+      {
+        "id": "entropy",
+        "year": "2020",
+        "team": "Entropy Academy / Future",
+        "role": "Spieler / Entry, 2nd Entry",
+        "dateRange": {
+          "start": "January 2020",
+          "end": "December 2020"
+        }
+      }
+    ]
+  }
+}

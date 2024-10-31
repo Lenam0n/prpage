@@ -1,0 +1,91 @@
+.timeline-container {
+  position: relative;
+  width: 100%;
+  height: 100px; /* Höhe anpassen, wie gewünscht */
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px; /* Dicke der Linie */
+  transform: translateY(-50%);
+  width: 95%;
+}
+
+.timeline-point-container {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* width: 550px; */
+  padding-left: 60px;
+  width: 80%;
+  margin-left: 25px;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid;
+  background-color: white; /* Hintergrundfarbe des Punkts */
+  cursor: pointer;
+  pointer-events: auto;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.timeline-point:hover {
+  background-color: var(
+    --highlight-color,
+    rgb(241, 108, 208)
+  ); /* Hervorhebung beim Hovern */
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.timeline-info {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.timeline-point:hover .timeline-info {
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .timeline-point-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-info {
+    left: 50px;
+  }
+
+  .timeline-point {
+    width: 20px;
+    height: 20px;
+  }
+
+  .timeline-point.active {
+    transform: scale(1.3);
+  }
+}

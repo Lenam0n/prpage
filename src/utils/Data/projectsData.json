@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "/assets/ProjectImages/Lumiquest/Account.png",
+      "/assets/ProjectImages/Lumiquest/Frage.png",
+      "/assets/ProjectImages/Lumiquest/Fragehinzufügen.png",
+      "/assets/ProjectImages/Lumiquest/Graph.png",
+      "/assets/ProjectImages/Lumiquest/ResponseDialog.png"
+    ],
+    "logo": "/assets/ProjectImages/Lumiquest/logo.png",
+    "languages": ["javascript", "react", "node"],
+    "url": "https://lumiquest.lenam0n.net"
+  }
+]

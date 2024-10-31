@@ -1,0 +1,29 @@
+.email-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--background);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.email-text {
+  margin-left: 10px; /* Abstand zwischen Icon und Text */
+  font-size: 16px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.email-icon {
+  color: var(--text);
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.email-icon:hover {
+  color: var(--footer-link-hover-color);
+  transform: scale(1.1);
+}

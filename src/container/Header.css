@@ -1,0 +1,247 @@
+/* Light Mode Standardfarben */
+body {
+  --background: #f5f5f5;
+  --text: #333;
+  --icon-sun-color: #f39c12;
+  --icon-moon-color: #333;
+  --logo-bg-color: #e0e0e0; /* Kreishintergrund für das Logo im Light Mode */
+  --logo-hover-bg-color: #d0d0d0; /* Hover-Farbe für den Kreishintergrund im Light Mode */
+  --logo-icon-color: #333; /* Hausfarbe im Light Mode */
+  --navbar-shadow: rgba(0, 0, 0, 0.1);
+  --nav-hover-bg: #555;
+  --button-bg: #333;
+  --button-hover-bg: #555;
+}
+
+/* Dark Mode Farben */
+body.dark-mode {
+  --background: #2b2b2b;
+  --text: #f5f5f5;
+  --icon-sun-color: #f5f5f5;
+  --icon-moon-color: #f39c12;
+  --logo-bg-color: #444; /* Kreishintergrund für das Logo im Dark Mode */
+  --logo-hover-bg-color: #555; /* Hover-Farbe für den Kreishintergrund im Dark Mode */
+  --logo-icon-color: #f5f5f5; /* Hausfarbe im Dark Mode */
+  --navbar-shadow: rgba(0, 0, 0, 0.5);
+  --nav-hover-bg: #444;
+  --button-bg: #444;
+  --button-hover-bg: #666;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px var(--navbar-shadow);
+}
+
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--logo-bg-color); /* Kreishintergrund */
+  border-radius: 50%; /* Runde Form */
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logo svg {
+  color: var(--logo-icon-color); /* Hausfarbe */
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  background-color: var(--logo-hover-bg-color);
+  transform: scale(1.1);
+}
+
+.logo:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  background-color: var(--nav-hover-bg);
+  border-radius: 5px;
+}
+
+/* Menu Icon */
+.menu-icon {
+  display: none;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* Theme Toggle Styles */
+.theme-toggle {
+  cursor: pointer;
+  color: var(--text);
+}
+
+/* Icon Colors */
+.theme-toggle .sun-icon {
+  color: var(--icon-sun-color);
+}
+
+.theme-toggle .moon-icon {
+  color: var(--icon-moon-color);
+}
+
+/* Button and General Controls */
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--background);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 2.5em;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--background);
+    width: 100%;
+    display: none;
+  }
+
+  .nav.open ul {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav ul li a {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Dropdown for Language Selection */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-dropdown button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.language-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background);
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-list li {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.language-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.language-list li::before {
+  content: "";
+  margin-right: 5px;
+}
+
+/* Dropdown-Menü für Esport */
+.esport-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background);
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: block;
+  z-index: 1000;
+  width: 150px;
+  flex-direction: column;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: var(--nav-hover-bg);
+  color: var(--background);
+  border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.privacy-section {
+  padding: 100px 20px;
+  background-color: var(--background);
+  text-align: center;
+  scroll-margin-top: 70px; /* Anpassung für die Höhe der Navbar */
+}
+
+.privacy-section h2 {
+  font-size: 36px;
+  color: var(--text);
+  margin-bottom: 40px;
+}
+
+.privacy-content {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-content h3 {
+  font-size: 24px;
+  color: var(--text);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.privacy-content p {
+  font-size: 16px;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

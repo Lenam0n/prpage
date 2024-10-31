@@ -1,0 +1,226 @@
+{
+  "Navbar": {
+    "Home": "Startseite",
+    "AboutMe": "Über mich",
+    "Projects": "Projekte",
+    "Contact": "Kontakt",
+    "Timeline": "Historie",
+    "Esport": {
+      "Title": "Esport",
+      "Valorant": "Valorant",
+      "CounterStrike": "Counter Strike"
+    }
+  },
+
+  "Hero": {
+    "Title": "Willkommen in meiner Welt",
+    "Subtitle": "Ich kombiniere Kreativität mit Technologie, um schöne und funktionale Web-Erlebnisse zu schaffen.",
+    "ButtonText": "Kontakt aufnehmen"
+  },
+
+  "About": {
+    "Title": "Über mich",
+    "Description": "Als engagierte eSports Athletin bei Dortmund eSports e.V. und angehende Fullstack-Entwicklerin, vereine ich technische Fertigkeiten in JavaScript und anderen Sprachen, mit meiner Leidenschaft für teambasierte Strategiespiele. Mein Bildungsweg umfasst eine fortlaufende Spezialisierung in Node.js und React / React Native an der Zero To Mastery Academy, die meine Kompetenzen in der modernen Softwareentwicklung von Grund auf, aufgebaut hat. In Zusammenarbeit mit meinem Team haben wir einige Erfolge in nationalen und internationalen e-Sport Szene erreicht. Dort habe ich meine Fähigkeiten stetig weiterentwickelt, was meine Rolle des Team Captains mit Aspekten wie Teambuilding oder Leistungsmanagement immer weiter verbessert hat. Mit meiner Ausbildung beim Berufsbildungswerk Mosbach-Heidelberg und meinem Streben nach kontinuierlicher Verbesserung, strebe ich eine Karriere als Full Stack Developer an, die meine Expertise und mein Interesse an innovativen Technologien vereint und mir das Gefühl von Fortschritt gibt.",
+    "Experience": ""
+  },
+
+  "Projects": [
+    {
+      "id": 1,
+      "Title": "LumiQuest",
+      "Description": "LumiQuest ist eine spannende Lern-App, die das Meistern neuer Themen oder Unterrichtsinhalte, sowohl effektiv als auch unterhaltsam gestaltet. Mit interaktiven Inhalten, personalisiertem Fortschrittstracking und einem intuitiven Design unterstützt LumiQuest die Nutzer dabei, Wissen auf eine abenteuerliche Art und Weise aufzubauen.",
+      "Subtitle": "Benutzte Technologien"
+    }
+  ],
+  "Impressum": {
+    "Title": "Impressum",
+    "Description": "Hier finden Sie alle relevanten rechtlichen Informationen zu dieser Webseite.",
+    "Contact": {
+      "Title": "Kontakt",
+      "Details": "Name: Anna-Lena Wiederstein\nE-Mail: Lena.Wiederstein1234@gmail.com\nAdresse: ----"
+    },
+    "Legal": {
+      "Title": "Rechtliche Hinweise",
+      "Details": "Inhalte auf dieser Webseite unterliegen dem Urheberrecht und anderen Gesetzen zum Schutz geistigen Eigentums."
+    },
+    "Responsibility": {
+      "Title": "Verantwortlicher im Sinne des § 55 Abs. 2 RStV",
+      "Details": "Anna-Lena Wiederstein, -----"
+    }
+  },
+
+  "Privacy": {
+    "Title": "Datenschutzerklärung",
+    "Description": "Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und den Zweck der Verarbeitung von personenbezogenen Daten auf dieser Webseite auf.",
+    "DataCollection": {
+      "Title": "Erhebung von Daten",
+      "Details": "Wir erheben personenbezogene Daten, wenn Sie diese freiwillig angeben, z. B. durch das Ausfüllen eines Kontaktformulars."
+    },
+    "Cookies": {
+      "Title": "Cookies",
+      "Details": "Diese Webseite verwendet Cookies, um Ihre Erfahrung zu verbessern und statistische Daten zu erfassen."
+    },
+    "ThirdParty": {
+      "Title": "Datenweitergabe an Dritte",
+      "Details": "Wir geben Ihre Daten nicht ohne Ihre Einwilligung an Dritte weiter, es sei denn, dies ist gesetzlich erforderlich."
+    },
+    "UserRights": {
+      "Title": "Rechte der Nutzer",
+      "Details": "Sie haben das Recht, jederzeit Auskunft über Ihre gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung zu erhalten."
+    },
+    "Contact": {
+      "Title": "Kontakt",
+      "Details": "Bei Fragen zum Datenschutz können Sie uns unter folgender E-Mail-Adresse kontaktieren: Lena.Wiederstein1234@gmail.com"
+    }
+  },
+
+  "Footer": {
+    "Links": "Wichtige Links",
+    "Impressum": "Impressum",
+    "PrivacyPolicy": "Datenschutzerklärung",
+    "TermsOfService": "Nutzungsbedingungen",
+    "Contact": "Kontakt",
+    "FollowMe": "Folge mir",
+    "ContactMe": "Kontaktiere Mich",
+    "AllRightsReserved": "Alle Rechte vorbehalten"
+  },
+
+  "Terms": {
+    "Title": "Nutzungsbedingungen",
+    "Description": "Diese Nutzungsbedingungen regeln die Nutzung dieser Webseite. Durch den Zugriff auf diese Webseite erklären Sie sich mit den folgenden Bedingungen einverstanden.",
+    "Agreement": {
+      "Title": "Zustimmung zur Vereinbarung",
+      "Details": "Durch die Nutzung dieser Webseite erklären Sie sich mit den Bedingungen dieser Vereinbarung einverstanden."
+    },
+    "UserResponsibilities": {
+      "Title": "Verantwortlichkeiten des Nutzers",
+      "Details": "Als Nutzer verpflichten Sie sich, die Webseite nur für rechtmäßige Zwecke zu verwenden und keine Handlungen vorzunehmen, die den Betrieb dieser Webseite beeinträchtigen könnten."
+    },
+    "Limitation": {
+      "Title": "Haftungsbeschränkung",
+      "Details": "Wir übernehmen keine Haftung für Schäden, die durch die Nutzung dieser Webseite entstehen könnten."
+    },
+    "Changes": {
+      "Title": "Änderungen der Nutzungsbedingungen",
+      "Details": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Die geänderten Bedingungen treten sofort nach ihrer Veröffentlichung auf dieser Webseite in Kraft."
+    },
+    "Contact": {
+      "Title": "Kontakt",
+      "Details": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, können Sie uns unter folgender E-Mail-Adresse kontaktieren: Lena.Wiederstein1234@gmail.com"
+    }
+  },
+  "Contact": {
+    "Title": "Kontaktiere mich",
+    "NamePlaceholder": "Ihr Name",
+    "EmailPlaceholder": "Ihre E-Mail",
+    "MessagePlaceholder": "Ihre Nachricht",
+    "SendButton": "Nachricht senden",
+    "FollowUs": "Folge auch meinen Social media Plattforen",
+    "ReachOut": "Ich bin auch über diese sozialen Plattformen zuerreichen.",
+
+    "SuccessTitle": "Erfolgreich!",
+    "SuccessMessage": "Ihre Nachricht wurde erfolgreich gesendet.",
+    "ErrorTitle": "Fehler!",
+    "ErrorMessage": "Beim Senden Ihrer Nachricht ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.",
+    "OkButton": "OK"
+  },
+  "EsportTimeline": {
+    "Title": "Esport Historie"
+  },
+  "teamDetails": {
+    "angryTitans": {
+      "details": "Mein erstes Valorant-Team, für das ich gespielt habe. Wir sind zusammen mehrfach auf LAN-Finals gefahren und konnten im deutschen Frauenbereich viel erreichen.",
+      "game": "valorant"
+    },
+    "enders": {
+      "details": "Kurzes Mixteam, das mit Project Queens über 3 Splits gespielt hat.",
+      "game": "valorant"
+    },
+    "namelessvlr": {
+      "details": "Rebuild von Enders. Das Team hat mehrere Queens-Sessions gemeinsam gespielt und wurde von GHR aufgenommen.",
+      "game": "valorant"
+    },
+    "ghr": {
+      "details": "Nach dem Beitritt zu GHR konnten wir viel Erfahrung sammeln und ein paar kleinere Event-Erfolge erzielen.",
+      "game": "valorant"
+    },
+    "does": {
+      "details": "Mein erstes Valorant-Mixteam. Dort konnten wir uns einen Namen machen, sowohl in Project V als auch durch das VCL-Relegationsturnier, für das wir uns qualifizieren konnten.",
+      "game": "valorant"
+    },
+    "whalewompers": {
+      "details": "Mixteam für Project V.",
+      "game": "valorant"
+    },
+    "entropy": {
+      "details": "Academy-Team von Entropy Esports. Das Team hat sich mehrfach in der 99Damage Liga gezeigt und nach dem Erkämpfen eines Div3-Slots auch diesen solide bespielt. Ebenso gab es eine Session in der ESEA Intermediate.",
+      "game": "cs"
+    },
+    "vic&evil": {
+      "details": "99Damage Div 3-Team mit 2 soliden Sessions dort und einer Session in der ESEA Intermediate.",
+      "game": "cs"
+    },
+    "scapesesport": {
+      "details": "Portugiesisches Frauen-Team, mit dem ich eine Session in der ESEA Open und einige kleinere Turniere gespielt habe.",
+      "game": "cs"
+    },
+    "fivegamingRed": {
+      "details": "Ein internationales Frauen-Team, mit dem einige kleinere Events erfolgreich bestritten wurden und das auch in der 99Damage Liga in der Mix-Male-Szene mitgespielt hat.",
+      "game": "cs"
+    },
+    "fivegamingPink": {
+      "details": "Ein Mix-Team, das nach dem Disband des Red-Teams gebildet wurde, wo ich mit vier Jungs in der 99Damage Liga und ESEA Liga gespielt habe.",
+      "game": "cs"
+    }
+  },
+
+  "history": {
+    "title": "Mein Weg über die Jahre",
+    "subtitle": "Erfahren Sie mehr über die Schlüsselmomente und Meilensteine, die meinen beruflichen Werdegang geprägt haben.",
+    "download_cv": "Lebenslauf als PDF herunterladen",
+    "events": [
+      {
+        "id": 1,
+        "date": "",
+        "title": "Schule",
+        "details": "In meinen zwei Jahren der Oberstufe (11. und 12. Klasse) mit dem Schwerpunkt Informatik lernte ich die Grundlagen von VB und Java."
+      },
+      {
+        "id": 2,
+        "date": "",
+        "title": "Ausbildungsvorbereitung",
+        "details": "Im Ausbildungsvorbereitungsprogramm erlernte ich die Grundlagen der Frontend-Entwicklung und die Grundprinzipien der objektorientierten Programmierung mit Python."
+      },
+      {
+        "id": 3,
+        "date": "",
+        "title": "Zero to Mastery - Webentwicklungskurs",
+        "details": "Im Webentwicklungskurs lernte ich, wie Frontend-Technologien funktionieren und miteinander interagieren."
+      },
+      {
+        "id": 4,
+        "date": "",
+        "title": "Zero to Mastery - Python-Kurs",
+        "details": "Im Python-Kurs lernte ich die Grundlagen der Programmierung mit Python und dessen Anwendung in der Webentwicklung."
+      },
+      {
+        "id": 5,
+        "date": "",
+        "title": "Zero to Mastery - React-Kurs",
+        "details": "Im React-Kurs erlernte ich die Nutzung von React auf Produktionsebene und erhielt grundlegendes Wissen über TypeScript mit TSX."
+      },
+      {
+        "id": 6,
+        "date": "",
+        "title": "Zero to Mastery - Node.js-Kurs",
+        "details": "Im Node.js-Kurs lernte ich, wie man Backend-Code erstellt und mit einem Frontend verbindet, was mir ermöglichte, eine Plattform für mich und meine Freunde zu entwickeln, um mehrere Spiele darauf zu spielen."
+      }
+    ]
+  },
+
+  "main": {
+    "title": "Willkommen in meinem Portfolio",
+    "tagline": "Angehende Fullstack-Entwicklerin aus Deutschland , Köln",
+    "getInTouch": "Kontakt aufnehmen"
+  }
+}

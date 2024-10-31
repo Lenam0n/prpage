@@ -1,0 +1,39 @@
+/* Dark mode root adjustments */
+.dark-mode {
+  --background-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --border-color-dark: #444444;
+}
+
+/* Valorant-specific colors */
+.valorant-timeline {
+  --highlight-color: #ff4655; /* Valorant red */
+}
+
+/* CounterStrike-specific colors */
+.counterstrike-timeline {
+  --highlight-color: #f0c040; /* CounterStrike yellow */
+}
+
+/* Game Container Styling */
+.game-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 2px solid var(--border-color-dark);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  margin-inline: 25px;
+  height: 200px;
+}
+
+/* Game Header Styling */
+.game-header {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: var(--text-color);
+}

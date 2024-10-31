@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "info": "School",
+    "languages": ["Java", "Visualbasic"]
+  },
+  {
+    "id": 2,
+    "info": "Aprentice Preperation",
+    "languages": ["Javascript", "Html", "css", "PHP", "Python"]
+  },
+  {
+    "id": 3,
+    "info": "Zero To Mastery - WebDev Course",
+    "languages": ["Javascript", "Html", "css", "React", "Node"]
+  },
+  {
+    "id": 4,
+    "info": "Zero To Mastery - Python Course",
+    "languages": ["Python"]
+  },
+  {
+    "id": 5,
+    "info": "Zero To Mastery - React Course",
+    "languages": ["React", "Typescript"]
+  },
+  {
+    "id": 6,
+    "info": "Zero To Mastery - Node Course",
+    "languages": ["React", "Typescript"]
+  }
+]
